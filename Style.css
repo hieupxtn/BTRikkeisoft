@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    text-align: justify;
+    background-color: #DDDDDD;
+}
+#hotline{
+    height: 30px;
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    font-size: 13px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 5px;
+}
+#hotline ul{
+    float: right;
+    display: flex;
+    list-style: none;
+    
+}
+#hotline a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: white;
+    font-size: 13px;
+}
+#hotline a:hover{
+    color: red;
+}
+.hotline{
+    padding-left: 15px;
+}
+#header{
+    height: 75px;
+    background-color: black;
+    width: 100%;
+    border: 10px bold black;
+}
+#header ul{
+    float: right;
+    list-style: none;
+    display: flex;
+    padding-right: 50px;
+    padding-top: 22px;
+	padding-bottom: 0px;
+}
+#header a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #999999;
+    font-size: 15px;
+    font-weight: bold;
+}
+#header a:hover{
+    color: white;
+}
+#banner{
+    margin-top: -5px;
+}
+#products{
+    background-color: white;
+    height: 450px;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 20px;
+    align-content: center;
+}
+#products .card{
+    float: left;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#products a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+
+}
+
+
+#inforcompany{
+    height: 500px;
+    background: url("about.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 100px;
+}
+
+.left-category,.middle-category, .rightup-category, .rightdown-category {
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+}
+.imgleft-holder{
+    width: 100%;
+    height: 100%;
+    background: url("cm1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.imgleft-holder:hover{
+    transform: scale(1.2);
+}
+.left-title::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: white;
+    margin-top: 10px;
+}
+.left-title{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.imgmiddle-holder{
+    width: 100%;
+    height: 100%;
+    background: url("cm3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.imgmiddle-holder:hover{
+    transform: scale(1.2);
+}
+.imgrightup-holder{
+    width: 100%;
+    height: 100%;
+    background: url("banner-pierre-cardin.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.imgrightup-holder:hover{
+    transform: scale(1.2);
+}
+.imgrightdown-holder{
+    width: 100%;
+    height: 100%;
+    background: url("cm4crop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.imgrightdown-holder:hover{
+    transform: scale(1.2);
+}
+
+#inforproducts{
+    height: 750px;
+}
+#events{
+    height: 600px;
+    background: url("IMG/news2-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    background-color: white;
+    
+}
+#events a{
+    text-decoration: none;
+    color: black;
+}
+#events .card{
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 400px;
+}
+
+
+.company-achieve{
+    height: 200px;
+    background: url("IMG/6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.number-customer::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #ff000a;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    margin-left: 96px;
+}
+.number-store::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #ff000a;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.number-product::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #ff000a;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    margin-left: 132px;
+}
+.logo-list{
+    background-color: #F2F2F2;
+    height: 140px;
+    text-align: center;
+    line-height: 140px;
+}
+.logolist{
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 0.8s ease;
+}
+.logolist:hover{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+#footer{
+    color: gray;
+    background-color: #222222;
+    font-weight: 500;
+    width: 100%;
+    height: 400px;
+    font-size: 16px;
+    padding-left: 20px;
+
+}
+#footer a{
+    text-decoration: none;
+    color: gray;
+}
+#footer b{
+    color: white;
+}
+#footer .footer-coslum{
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+#footer .footer-coslum a:hover {
+    color: white;
+}
+
+#end{
+    height: 50px;
+    background-color: #111111;
+    text-align: center;
+    padding: 10px;
+    color: #777777;
+}
+#end a{
+    color: #777777;
+    text-decoration: none;
+}
+#end a:hover{
+    color: white;
+}
+.caption{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.caption::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #ff000a;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.content{
+    margin-left: 80px;
+}
+.content h3::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #ff000a;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: red;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border: 1px solid red;
+    font-weight: bold;
+}
+
